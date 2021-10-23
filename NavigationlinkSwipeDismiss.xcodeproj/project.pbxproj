@@ -11,6 +11,7 @@
 		5AF1913F2723F559004DC470 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1913E2723F559004DC470 /* ContentView.swift */; };
 		5AF191412723F55D004DC470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF191402723F55D004DC470 /* Assets.xcassets */; };
 		5AF191442723F55D004DC470 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF191432723F55D004DC470 /* Preview Assets.xcassets */; };
+		5AF1914B2723F569004DC470 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1914A2723F569004DC470 /* Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5AF1913E2723F559004DC470 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5AF191402723F55D004DC470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AF191432723F55D004DC470 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AF1914A2723F569004DC470 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				5AF1913C2723F559004DC470 /* NavigationlinkSwipeDismissApp.swift */,
 				5AF1913E2723F559004DC470 /* ContentView.swift */,
+				5AF1914A2723F569004DC470 /* Main.swift */,
 				5AF191402723F55D004DC470 /* Assets.xcassets */,
 				5AF191422723F55D004DC470 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF1914B2723F569004DC470 /* Main.swift in Sources */,
 				5AF1913F2723F559004DC470 /* ContentView.swift in Sources */,
 				5AF1913D2723F559004DC470 /* NavigationlinkSwipeDismissApp.swift in Sources */,
 			);
