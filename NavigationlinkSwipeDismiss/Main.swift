@@ -23,6 +23,7 @@ struct Main: View {
                     LinkView().navigationBarHidden(true)
                 } label: {
                     Text("Link Button")
+                        .font(.largeTitle)
                 }
             }
             
@@ -51,7 +52,7 @@ struct LinkView: View {
             }//ZStack End
             .offset(x:offset)
             .gesture(dragGesture)
-     
+            
         }//GeometryReader End
     }
     
@@ -64,25 +65,25 @@ struct LinkView: View {
                 if dragAmount < 0 {
                     self.offset = 0
                     
-                //右にスワイプすると動く
+                    //右にスワイプすると動く
                 } else {
                     self.offset = dragAmount
                 }
                 
             })
         
-            //swipeが終わった時に
+        //swipeが終わった時に
             .onEnded({ val in
                 
                 //画面の1/4以上Swipeした場合はViewをdismiss
                 if self.offset >= UIScreen.main.bounds.width*0.4 {
                     dismiss()
                     
-                //画面の1/4以上Swipeした場合はオフセットを初期位置に戻す
+                    //画面の1/4以上Swipeした場合はオフセットを初期位置に戻す
                 } else {
                     self.offset = .zero
                 }
-            
+                
                 
             })
     }
