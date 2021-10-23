@@ -5,4 +5,5 @@ SwiftUIです。
 
 
 # GIF
-https://user-images.githubusercontent.com/87796809/138559642-827cd13a-2ed1-4683-b7b5-5365f85d11cd.GIF
+
+![GIF](https://user-images.githubusercontent.com/87796809/138559642-827cd13a-2ed1-4683-b7b5-5365f85d11cd.GIF)
