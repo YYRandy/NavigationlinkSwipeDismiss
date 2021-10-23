@@ -14,6 +14,7 @@ struct Main: View {
     
     var body: some View {
         ZStack {
+            
             Color.orange
                 .edgesIgnoringSafeArea(.all)
             
@@ -24,6 +25,8 @@ struct Main: View {
                     Text("Link Button")
                 }
             }
+            
+            
         }
         
     }
@@ -67,9 +70,15 @@ struct LinkView: View {
                 }
                 
             })
+        
+            //swipeが終わった時に
             .onEnded({ val in
+                
+                //画面の1/4以上Swipeした場合はViewをdismiss
                 if self.offset >= UIScreen.main.bounds.width*0.4 {
                     dismiss()
+                    
+                //画面の1/4以上Swipeした場合はオフセットを初期位置に戻す
                 } else {
                     self.offset = .zero
                 }
